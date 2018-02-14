@@ -14,8 +14,6 @@ fastlane add_plugin instabug_official
 
 upload dsyms to instabug
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
-
 ## Example
 ```ruby
 instabug_official(api_token: 'INSTABUG_TOKEN',
@@ -24,19 +22,6 @@ instabug_official(api_token: 'INSTABUG_TOKEN',
 dsym_path: '/path/to/dsym')
 ```
 Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`.
-
-## Run tests for this plugin
-
-To run both the tests, and code style validation, run
-
-```
-rake
-```
-
-To automatically fix many of the styling issues, use
-```
-rubocop -a
-```
 
 ## Issues and Feedback
 
